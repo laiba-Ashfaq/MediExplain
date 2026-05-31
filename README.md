@@ -1,14 +1,6 @@
 #  MediExplain
 ### An LLM-Based AI Agent for Automated Explanation of Medical Laboratory Reports
 
-> **Course:** Artificial Intelligence (AI 23-SE-350)  
-> **Assignment:** 02 — Project Module 2  
-> **Submitted to:** Dr. Kanwal Yousaf  
-> **Authors:** Ifrah Sarfraz (23-SE-09) · Laiba Ashfaq (23-SE-55)  
-> **Department:** Software Engineering, UET Taxila  
-
----
-
 ##  Project Overview
 
 MediExplain is a task-oriented AI agent that accepts unstructured text from a medical laboratory report and generates a **patient-friendly, plain-language explanation** of the results. It uses **LLaMA 3.3 70B** (via Groq) as its reasoning brain, a **CSV-based reference database** (50+ lab tests) as memory, and a **regex-based value parser** as its perception toolkit — all served via a **Flask web UI**.
@@ -62,7 +54,6 @@ MediExplain/
 ├── parser.py               # Value Parser — extracts test names, values, units
 ├── reference_db.py         # Reference DB Toolkit — looks up normal ranges
 ├── requirements.txt        # Python dependencies
-├── .env.example            # Environment variable template
 ├── .gitignore
 │
 ├── data/
