@@ -74,7 +74,7 @@ MediExplain/
 
 ### Prerequisites
 - Python 3.10 or higher
-- A free Groq API key — get one at **https://console.groq.com** (no credit card needed)
+- A free Groq API key — get one at **https://console.groq.com** 
 
 ### Step 1 — Clone the repository
 ```bash
@@ -186,7 +186,7 @@ The reference database (`data/reference_ranges.csv`) covers 50+ tests including:
 | Thyroid | TSH, Free T3, Free T4 |
 | Others | Iron, Ferritin, Vitamin D, B12, CRP, INR, Uric Acid, Calcium |
 
-Sex-specific ranges are provided for: Hemoglobin, Hematocrit, RBC, Creatinine, HDL, Iron, Ferritin, ESR, Uric Acid.
+Gender-specific ranges are provided for: Hemoglobin, Hematocrit, RBC, Creatinine, HDL, Iron, Ferritin, ESR, Uric Acid.
 
 ---
 
